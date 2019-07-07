@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  WHEW LAD WELCOME TO THE DEV TOOLS!  -->
+<!-- Hey there! Whether you're here by accidentally hitting F12 or on purpose, thank you for checking out GermanWordADay.info! I hope you really enjoy this website and that it helps you a bunch! While surely there are some words you already know, I tried to choose a lot of words too where they aren't as common. For example, you won't find 'Das Mädchen' on this list, because that tends to be one of the first words people learn... however 'schön' is also on this list, so maybe in hindsight it's neither here nor there with consistency. Trotzdem vielen Dank für den Besuch! -->
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140335555-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-140335555-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="German Word-A-Day! by Thomas Wicks">
+    <meta name="keywords" content="Thomas Wicks, language learning, german, languages, educational, word-a-day, learning, education, word a day">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta property="og:image" content="./images/thumbnail.png" />
+    <meta property="og:title" content="German Word-A-Day!" />
+    <meta property="og:description" content="A word a day keeps the... well it's helpful for learning!" />
+
+    <title>German Word-A-Day</title>
+
+    <link rel="icon" href="./images/germanFlag.png">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bulma.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://kit.fontawesome.com/5d4e65f2ee.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+</head>
+
+<body>
+
+    <!--  Color band at top of screen  -->
+    <div class="colorBand">&nbsp;</div>
+
+    <label class="switch">
+        <input id="btn" type="checkbox">
+        <span class="slider round">&nbsp;</span>
+    </label>
+
+    <main id="vue-app">
+        <!--                <div id="absolute">Currently <em>{{ wordCount }}</em> possible words!</div>-->
+        <div id="absolute"><em>(Refreshes at midnight local time)</em></div>
+        <div class="flexCont">
+            <div class="wordsCont">
+                <h2>{{ wordDE }}</h2>
+                <h3>{{ wordEN }}</h3>
+            </div>
+            <div class="senCont">
+                <p class="is-size-5">{{ type }} - <em>{{ sentence }}</em></p>
+            </div>
+            <!--      You have found the button of the future! (Actually this button gives you a random word...) Uncomment it and use it wisely!      -->
+            <!--            <button id="refresh" class="btn button" v-on:click="refresh">Gib mir noch eines!</button>-->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p class="is-size-6">
+                <strong>German Word-A-Day</strong> by <a href="https://thomaswicks.com/" target="_blank" class="hvr-sweep-to-right text-highlight">Thomas Wicks,</a> created to help German learners keep on learning.
+            </p>
+            <p class="is-size-6">If you notice any mistakes, please contact me on my main page <a href="https://thomaswicks.com/#contactMe" target="_blank" class="is-size-6 hvr-sweep-to-right text-highlight">here</a></p>
+            <p class="is-size-6">If you would like to support this website, you can <a href="https://www.buymeacoffee.com/thomaswicks" target="_blank" class="is-size-6 hvr-sweep-to-right text-highlight">buy me a coffee</a> ☕ if you'd like. </p>
+        </div>
+    </footer>
+
+
+    <script src="./js/app.js"></script>
+    <script src="./js/german.json"></script>
+
+</body>
+
+</html>
