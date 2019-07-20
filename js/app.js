@@ -1,11 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Rendom number for wordList array
-    //    let randNum = Math.floor(Math.random() * wordList.length);
-    //    
-    //    wordList.forEach(e => console.log(e.wordDE));
-    //    console.log(wordList.length);
     
-
     // Shows words based on what day of the year it is out of 366 days/year
     const now = new Date();
     const start = new Date(now.getFullYear(), 0, 0);
@@ -15,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Sort array by 'sentence' so it appears in a pretty random word order
     const ordered = wordList.sort((a, b) => a.sentence > b.sentence ? 1 : -1);
-    
-    // console.table(ordered)
-    console.log(`${wordList.length} words available!
+        
+    // Hey bud message
+    console.log(`${wordList.length} words available! This is currently word number ${day}
     Hey there! Whether you're here by accidentally hitting F12 or on purpose, thank you for checking out GermanWordADay.info! I hope you really enjoy this website and that it helps you a bunch! While surely there are some words you already know, I tried to choose a lot of words too where they aren't as common. For example, you won't find 'Das Mädchen' on this list, because that tends to be one of the first words people learn... however 'schön' is also on this list, so maybe in hindsight it's neither here nor there with consistency. Trotzdem vielen Dank für den Besuch!`);
     
     new Vue({
@@ -41,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }); // end vue object
     
-    
+    /* ===================== Dark Mode ===================== */
     // Gets local time for dark mode
     var date = new Date().getHours();
     // Dark mode switch
@@ -58,16 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function darken() {
         // Apply darkmode to text
         document.querySelectorAll('p, h2, h3, em, strong, a').forEach(e => e.classList.toggle('darkText'));
-        
         // Apply dark background color
         document.querySelectorAll('body').forEach(e => e.classList.toggle('darkBG'));
-        
         // Off-shade footer
         document.querySelectorAll('footer').forEach(e => e.classList.toggle('darkBGFooter'));
-        
         // Strengthens orange colors on the page behind text
         document.querySelectorAll('.orangeBackground, .text-highlight').forEach(e => e.classList.toggle('bannerTextDark'));
-    };
-    // DARK MODE END
-
-});
+    }; // DARK MODE END
+}); // End document.ready
