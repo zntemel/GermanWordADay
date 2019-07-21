@@ -15,7 +15,7 @@ const wordList = [
         wordDE: "Die Arbeit, -en",
         wordEN: "The work",
         type: "Noun",
-        sentence: "Ich suche Arbeit"
+        sentence: "Ich suche nach Arbeit"
     },
     {
         wordDE: "Zuhören",
@@ -81,13 +81,13 @@ const wordList = [
         wordDE: "Der Balkon, -e",
         wordEN: "The balcony",
         type: "Noun",
-        sentence: "Wir sitzen auf den Balkon"
+        sentence: "Wir sitzen auf dem Balkon"
     },
     {
         wordDE: "Der Baum, -e",
         wordEN: "The tree",
         type: "Noun",
-        sentence: "Wir haben vier Baume im Garten."
+        sentence: "Wir haben vier Bäume im Garten."
     },
     {
         wordDE: "Das Buch, die Bücher",
@@ -141,7 +141,7 @@ const wordList = [
         wordDE: "damals",
         wordEN: "back then",
         type: "Adverb",
-        sentence: "Damals war ich sehr cool!"
+        sentence: "Damals war ich sehr cool! Doch jetzt..."
     },
     {
         wordDE: "Die Dame, -n",
@@ -157,12 +157,12 @@ const wordList = [
     },
     {
         wordDE: "Das Einkaufszentrum, -en",
-        wordEN: "The shopping center",
+        wordEN: "The shopping center / the mall",
         type: "Noun",
         sentence: "Kommst du morgen mit ins Einkaufszentrum?"
     },
     {
-        wordDE: "dürfen",
+        wordDE: "Dürfen",
         wordEN: "To be permitted to / to be allowed to",
         type: "Verb",
         sentence: "Darf ich mit meinen Freunden rumhängen?"
@@ -171,7 +171,7 @@ const wordList = [
         wordDE: "Die Dusche, -n",
         wordEN: "The shower",
         type: "Noun",
-        sentence: "Wirf die Hunde in die Dusche, bitte"
+        sentence: "Wirf den Hund bitte unter die Dusche"
     },
     {
         wordDE: "Die Ecke",
@@ -180,7 +180,7 @@ const wordList = [
         sentence: "Der Hund spaziert um die Ecke."
     },
     {
-        wordDE: "durch",
+        wordDE: "Durch",
         wordEN: "through",
         type: "Preposition",
         sentence: "Wir fahren morgen durch den Burg"
@@ -193,9 +193,9 @@ const wordList = [
     },
     {
         wordDE: "Die Fahrkarte, -n",
-        wordEN: "The driver\"s license",
+        wordEN: "The driver's license",
         type: "Noun",
-        sentence: "Du hast schon eine Fahrkarte?"
+        sentence: "Du hast schon eine Fahrkarte!?"
     },
     {
         wordDE: "Fallen",
@@ -213,7 +213,7 @@ const wordList = [
         wordDE: "Die Firma, -en",
         wordEN: "The company",
         type: "Noun",
-        sentence: "Die Firma sieht sehr gut an."
+        sentence: "Die Firma sieht sehr gut aus."
     },
     {
         wordDE: "Die Flasche, -n",
@@ -249,7 +249,7 @@ const wordList = [
         wordDE: "Der Gast, die Gäste",
         wordEN: "The guest",
         type: "Noun",
-        sentence: "Wo ist der Gast?"
+        sentence: "Wo sind die Gäste gegangen?"
     },
     {
         wordDE: "Gefährlich",
@@ -271,7 +271,7 @@ const wordList = [
     },
     {
         wordDE: "Gleich",
-        wordEN: "\"in a moment\" or \"equally\"",
+        wordEN: "'in a moment' or 'equally'",
         type: "adjective",
         sentence: "Mach das nicht! Es ist zu gefährlich"
     },
@@ -333,7 +333,7 @@ const wordList = [
         wordDE: "Die Kreuzung, -en",
         wordEN: "The crossroad",
         type: "Noun",
-        sentence: "Wir warten für dich bei der Kreuzung."
+        sentence: "Wir warten an der Kreuzung auf Sie"
     },
     {
         wordDE: "Der Kopf, die Köpfe",
@@ -363,7 +363,7 @@ const wordList = [
         wordDE: "Möglich",
         wordEN: "Possible",
         type: "adjective",
-        sentence: "Es ist gar nicht möglich, dass ich heute nach Hause kommen kann."
+        sentence: "Das ist gar nicht möglich, dass ich heute nach Hause kommen kann."
     },
     {
         wordDE: "Nervös",
@@ -429,7 +429,7 @@ const wordList = [
         wordDE: "Das Schlafzimmer",
         wordEN: "The bedroom",
         type: "Noun",
-        sentence: "Willst du mein Schlafzimmer sehen?"
+        sentence: "Willst du mein Schlafzimmer sehen? 😏"
     },
     {
         wordDE: "Schlecht",
@@ -453,25 +453,25 @@ const wordList = [
         wordDE: "Sonnig",
         wordEN: "sunny",
         type: "Adjective",
-        sentence: "Die Sonne ist hell, also ist es sonnig!"
+        sentence: "Es gibt keine Wolken am Himmel, daher ist es heute sehr sonnig"
     },
     {
         wordDE: "Stehen",
         wordEN: "To stand",
         type: "Verb",
-        sentence: "Ich sitze nicht, aber ich stehe jetzt."
+        sentence: "Wie lange muss ich hier stehen?"
     },
     {
         wordDE: "Die Straße, -n",
         wordEN: "The street",
         type: "Noun",
-        sentence: "Wir chillen auf die Straße."
+        sentence: "Wir chillen auf die Straße Brudi"
     },
     {
         wordDE: "Die Suppe, -n",
         wordEN: "The soup",
         type: "Noun",
-        sentence: "Die Suppe schmekt sehr sher gut!"
+        sentence: "Die Suppe schmekt sehr sehr gut!"
     },
     {
         wordDE: "Das Tier, -e",
@@ -513,7 +513,7 @@ const wordList = [
         wordDE: "Der Arm, -e",
         wordEN: "The arm",
         type: "Noun",
-        sentence: "Meiner Arm tut es weh! Ich glaube meinen Arm gebrochen ist."
+        sentence: "Meiner Arm tut so weh! Ich glaube, dass meinen Arm gebrochen ist."
     },
     {
         wordDE: "Merken",
@@ -543,7 +543,7 @@ const wordList = [
         wordDE: "Der Dialog, -e",
         wordEN: "The dialogue",
         type: "Noun",
-        sentence: "Der Dialog ist eigentlch richtig schlecht!"
+        sentence: "Wurde dieser Dialog von einem Kind geschrieben?"
     },
     {
         wordDE: "Das Dokument, -e",
@@ -567,7 +567,7 @@ const wordList = [
         wordDE: "Dunkel",
         wordEN: "dark",
         type: "Adjective",
-        sentence: "Es ist 23 Uhr und Draußen ist es sehr dunkel"
+        sentence: "Es ist super dunkel in dieser Höhle"
     },
     {
         wordDE: "Eigentlich",
@@ -609,7 +609,7 @@ const wordList = [
         wordDE: "Erstellen",
         wordEN: "To create",
         type: "Verb",
-        sentence: "Jeden Tag erstelle ich etwas neu!"
+        sentence: "Jeden Tag will ich etwas neu erstellen!"
     },
     {
         wordDE: "Das Kopfgeld",
@@ -633,7 +633,7 @@ const wordList = [
         wordDE: "Der Fehler",
         wordEN: "The mistake",
         type: "Noun",
-        sentence: "Jeder macht Fehler"
+        sentence: "Jeder macht Fehler, ich weiß, ich weiß"
     },
     {
         wordDE: "Fällig",
@@ -657,7 +657,7 @@ const wordList = [
         wordDE: "die Flagge, -n",
         wordEN: "The flag",
         type: "Noun",
-        sentence: "Wehre die Flagge hoch!"
+        sentence: "Hänge die Flagge hoch!"
     },
     {
         wordDE: "Unterwegs",
@@ -681,7 +681,7 @@ const wordList = [
         wordDE: "Vergleichen",
         wordEN: "To compare",
         type: "Verb",
-        sentence: "Vergleichen Sie die Angebot."
+        sentence: "Vergleichen Sie die Angebote."
     },
     {
         wordDE: "Verlieren",
@@ -705,7 +705,7 @@ const wordList = [
         wordDE: "Wahrscheinlich",
         wordEN: "Probably",
         type: "Adverb",
-        sentence: "Das war wahrscheinlich nicht meine Schuld"
+        sentence: "Das war wahrscheinlich nicht meine Schuld... glaube mir oder nicht"
     },
     {
         wordDE: "Der Wald, die Wälder",
@@ -729,7 +729,7 @@ const wordList = [
         wordDE: "Deswegen",
         wordEN: "because of",
         type: "Adverb",
-        sentence: "Das war wahrscheinlich nicht meine Schuld"
+        sentence: "Wir gehen jetzt deswegen ihm!"
     },
     {
         wordDE: "Der Witz, -e",
@@ -771,7 +771,7 @@ const wordList = [
         wordDE: "Die Ahnung",
         wordEN: "The idea",
         type: "Noun",
-        sentence: "Ich habe gar keine Ahnung"
+        sentence: "Ich habe gar keine Ahnung, was ich hier schreiben soll."
     },
     {
         wordDE: "Allein",
@@ -783,7 +783,7 @@ const wordList = [
         wordDE: "Die Anlage, -n",
         wordEN: "The attachment",
         type: "Noun",
-        sentence: "Diese Anlage ist zu groß"
+        sentence: "Diese Anlage ist zu groß für die Kamera"
     },
     {
         wordDE: "Anschließen",
@@ -795,7 +795,7 @@ const wordList = [
         wordDE: "Arbeitslos",
         wordEN: "Unemployed",
         type: "Adjective",
-        sentence: "Ich bin immer noch arbeitslos"
+        sentence: "Ich bin wieder arbeitslos"
     },
     {
         wordDE: "Aufwachen",
@@ -825,7 +825,7 @@ const wordList = [
         wordDE: "Beliebt",
         wordEN: "popular",
         type: "Adjective",
-        sentence: "Du weißt du bist beliebt!"
+        sentence: "Weißt du, dass du beliebt bist?"
     },
     {
         wordDE: "Benötigen",
@@ -852,7 +852,7 @@ const wordList = [
         sentence: "Gute Besserung!"
     },
     {
-        wordDE: "Das Bett. -en",
+        wordDE: "Das Bett, -en",
         wordEN: "The bed",
         type: "Noun",
         sentence: "Ich bin müde, also gehe ich jetzt ins Bett"
@@ -861,7 +861,7 @@ const wordList = [
         wordDE: "Das Bild, -er",
         wordEN: "The picture",
         type: "Noun",
-        sentence: "Das Bild sieht sehr geil an!"
+        sentence: "Das Bild sieht sehr geil aus!"
     },
     {
         wordDE: "Die Biologie",
@@ -981,7 +981,7 @@ const wordList = [
         wordDE: "Der Erfolg, -e",
         wordEN: "The success",
         type: "Noun",
-        sentence: "Der Erfolg meines Sohn freut mich!"
+        sentence: "Der Erfolg meines Sohnes freut mich"
     },
     {
         wordDE: "Entwickeln",
@@ -1083,7 +1083,7 @@ const wordList = [
         wordDE: "das Gleis, -e",
         wordEN: "The track",
         type: "Noun",
-        sentence: "Dieses Gleis ist sehr gerade"
+        sentence: "Dieses Gleis ist gerade"
     },
     {
         wordDE: "Die Grafik, -en",
@@ -1167,7 +1167,7 @@ const wordList = [
         wordDE: "Die Industrie, -n",
         wordEN: "The industry",
         type: "Noun",
-        sentence: "Kurzlich macht die Industrie zu"
+        sentence: "Kürzlich macht die Industrie zu"
     },
     {
         wordDE: "Kämpfen",
@@ -1245,7 +1245,7 @@ const wordList = [
         wordDE: "Langweilig",
         wordEN: "Boring",
         type: "Adjective",
-        sentence: "Ich fahre gleich ab, weil es hier so langweilig ist"
+        sentence: "Ich gehe gleich, weil es hier so langweilig ist"
     },
     {
         wordDE: "Der Lärm",
@@ -1278,7 +1278,7 @@ const wordList = [
         sentence: "Klettere die Leiter hoch"
     },
     {
-        wordDE: "Das Material",
+        wordDE: "Das Material, -en",
         wordEN: "The material",
         type: "Noun",
         sentence: "Das Material ist doch teuer!"
@@ -1293,7 +1293,7 @@ const wordList = [
         wordDE: "Die Mehrheit",
         wordEN: "The majority",
         type: "Noun",
-        sentence: "Ist die Mehrheit flasch?"
+        sentence: "Ist die Mehrheit falsch?"
     },
     {
         wordDE: "Das Mineralwasser",
@@ -1353,7 +1353,7 @@ const wordList = [
         wordDE: "Nützen",
         wordEN: "To use",
         type: "Verb",
-        sentence: "Hast du meine Handy benützet?"
+        sentence: "Hast du meine Handy benutzt?"
     },
     {
         wordDE: "Ohne",
@@ -1551,13 +1551,13 @@ const wordList = [
         wordDE: "Das Spielzeug",
         wordEN: "The toy",
         type: "Noun",
-        sentence: "Hast du das neue Spielzeug gekauft?"
+        sentence: "Hast du das neue Spielzeug gekauft? Ich will es auch!"
     },
     {
         wordDE: "Die Sprache, -n",
         wordEN: "The language",
         type: "Noun",
-        sentence: "Ich kann die deutsche Sprache sprechen"
+        sentence: "Wir lernen zusammen die deutsche Sprache"
     },
     {
         wordDE: "Die Station, -en",
@@ -1641,13 +1641,13 @@ const wordList = [
         wordDE: "Unheimlich",
         wordEN: "Scary, creepy",
         type: "Adjective",
-        sentence: "Warum hast du dasd gesagt? Meine Mutter ist nicht unheimlich!"
+        sentence: "Warum hast du das gesagt? Meine Mutter ist nicht unheimlich!"
     },
     {
         wordDE: "Das Vergnügen",
         wordEN: "The pleasesure",
         type: "Noun",
-        sentence: "Es ist ein Vergnügen, mit dir Zeit zuverbringen"
+        sentence: "Es ist ein Vergnügen, Zeit mit dir zu verbringen"
     },
     {
         wordDE: "Verhaften",
@@ -1662,10 +1662,10 @@ const wordList = [
         sentence: "Verbrauch meine Seele nicht!"
     },
     {
-        wordDE: "Das Verdacht",
+        wordDE: "Der Verdacht",
         wordEN: "The suspicion",
         type: "Noun",
-        sentence: "Wem hat das Geld genommen? Ich bin nicht sicher... aber ich habe ein Verdacht"
+        sentence: "Wem hat das Geld genommen? Ich bin nicht sicher... aber ich habe einen Verdacht"
     },
     {
         wordDE: "Vergessen",
@@ -1779,7 +1779,7 @@ const wordList = [
         wordDE: "Weiblich",
         wordEN: "female",
         type: "Adjective",
-        sentence: "Das ist eine weibliche Vogel"
+        sentence: "Das ist ein weiblicher Vogel"
     },
     {
         wordDE: "Die Werbung, -en",
@@ -1815,7 +1815,7 @@ const wordList = [
         wordDE: "Bewölkt",
         wordEN: "Cloudy",
         type: "Adjective",
-        sentence: "Heute ist die Himmel meist bewölkt"
+        sentence: "Der Himmel ist heute sehr bewölkt"
     },
     {
         wordDE: "Die Zeit",
@@ -1872,7 +1872,7 @@ const wordList = [
         sentence: "Ich liebe es hier! Hier ist immer ruhig und still"
     },
     {
-        wordDE: "das Dach",
+        wordDE: "Das Dach",
         wordEN: "The roof",
         type: "Noun",
         sentence: "Wir rauchen auf dem Dach, also kann meine Mutter uns nicht finden"
@@ -1881,7 +1881,7 @@ const wordList = [
         wordDE: "Besetzen",
         wordEN: "To occupy",
         type: "Verb",
-        sentence: "Jetzte besetzen wir eine neue Wohnung"
+        sentence: "Jetzt besetzen wir eine neue Wohnung"
     },
     {
         wordDE: "Die Änderung, -en",
@@ -1914,7 +1914,7 @@ const wordList = [
         sentence: "Ist die Stellung immer noch verfügbar?"
     },
     {
-        wordDE: "Der Sugang",
+        wordDE: "Der Zugang",
         wordEN: "The access",
         type: "Noun",
         sentence: "Habt ihr Zugang oder ist es hier verboten?"
@@ -2073,7 +2073,7 @@ const wordList = [
         wordDE: "Die Suche",
         wordEN: "The search",
         type: "Noun",
-        sentence: "Ich bin noch auf die Suche nach der Eins"
+        sentence: "Ich bin immer noch auf die Suche nach der Eins"
     },
     {
         wordDE: "Töten",
@@ -2178,7 +2178,7 @@ const wordList = [
         sentence: "Riechst du das? Dieser geruch ist schrecklich!"
     },
     {
-        wordDE: "Der Ordernet, -",
+        wordDE: "Der Ordner, -",
         wordEN: "The folder",
         type: "Noun",
         sentence: "Dieser Ordner ist auch super alt!"
