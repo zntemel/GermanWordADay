@@ -189,7 +189,7 @@ const wordList = [
         wordDE: "Das Feuerzeug",
         wordEN: "The lighter",
         type: "Noun",
-        sentence: "Sei vorsichtig! Das Feuerzeug ist sehr heiß... so wie dich! 😏"
+        sentence: "Sei vorsichtig! Das Feuerzeug ist sehr heiß... so wie du! 😏"
     },
     {
         wordDE: "Die Fahrkarte, -n",
@@ -399,7 +399,7 @@ const wordList = [
         wordDE: "Reden",
         wordEN: "To talk",
         type: "Verb",
-        sentence: "Wir können später mit sie reden."
+        sentence: "Wir können später mit ihr reden."
     },
     {
         wordDE: "Die Regierung",
@@ -2103,7 +2103,7 @@ const wordList = [
         wordDE: "Fortsetzen",
         wordEN: "To continue",
         type: "Verb",
-        sentence: "Willst du fortsetzen im Spiel?"
+        sentence: "Willst du das Spiel fortsetzen?"
     },
     {
         wordDE: "Integrieren",
