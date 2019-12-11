@@ -1227,7 +1227,7 @@ const wordList = [
         wordDE: "Die Kultur, -en",
         wordEN: "The culture",
         type: "Noun",
-        sentence: "Die Kultur dieses Lands ist richtig interessant!"
+        sentence: "Die Kultur dieses Landes ist richtig interessant!"
     },
     {
         wordDE: "Die Lage, -",
@@ -1269,7 +1269,7 @@ const wordList = [
         wordDE: "Die Mahnung, -en",
         wordEN: "The warning",
         type: "Noun",
-        sentence: "Die Regierung richtete eine Mahnung an die Demonstranten."
+        sentence: "Die Regierung sprach eine Mahnung an die Demonstranten aus."
     },
     {
         wordDE: "Klettern",
@@ -1329,7 +1329,7 @@ const wordList = [
         wordDE: "Das Netzwerk, -e",
         wordEN: "The network",
         type: "Noun",
-        sentence: "Es gibt keine Verbingung mit diesem Netzwerk."
+        sentence: "Es gibt keine Verbindung mit diesem Netzwerk."
     },
     {
         wordDE: "Natürlich",
@@ -1947,7 +1947,7 @@ const wordList = [
         wordDE: "Eintreten",
         wordEN: "To enter",
         type: "Verb",
-        sentence: "Kann ich schon eintreten, oder muss ich mehr warten?"
+        sentence: "Kann ich schon eintreten, order muss ich noch etwas warten?"
     },
     {
         wordDE: "Bestellen",
@@ -2133,13 +2133,13 @@ const wordList = [
         wordDE: "Verraten",
         wordEN: "To betray",
         type: "Verb",
-        sentence: "Brute hat ihn leider auch verraten"
+        sentence: "Brutus hat ihn leider auch verraten"
     },
     {
         wordDE: "Verstecken",
         wordEN: "To hide",
         type: "Verb",
-        sentence: "Komm schon! Wir verstecken uns von Hans!"
+        sentence: "Komm schon! Wir verstecken uns vor Hans!"
     },
     {
         wordDE: "Kritisieren",
