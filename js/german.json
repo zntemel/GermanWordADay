@@ -183,7 +183,7 @@ const wordList = [
         wordDE: "Durch",
         wordEN: "through",
         type: "Preposition",
-        sentence: "Wir fahren morgen durch den Burg"
+        sentence: "Wir fahren morgen durch die Burg"
     },
     {
         wordDE: "Das Feuerzeug",
