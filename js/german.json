@@ -891,7 +891,7 @@ const wordList = [
         wordDE: "Dafür",
         wordEN: "For this / for that",
         type: "Adverb",
-        sentence: "Ich kam hier dafür"
+        sentence: "Böses Foul! Dafür gibt es die rote Karte"
     },
     {
         wordDE: "Diskutieren",
@@ -1299,7 +1299,7 @@ const wordList = [
         wordDE: "Das Mineralwasser",
         wordEN: "The mineral water",
         type: "Noun",
-        sentence: "Das Mineralwasser schmeckt nach Steinen"
+        sentence: "Das Mineralwasser schmeckt salzig"
     },
     {
         wordDE: "Merkwürdig",
@@ -2037,7 +2037,7 @@ const wordList = [
         wordDE: "Brennen",
         wordEN: "To burn",
         type: "Verb",
-        sentence: "Das Holz ist doch heiß, also brennt es"
+        sentence: "Du kannst das brennende Holz im Ofen sehen"
     },
     {
         wordDE: "Die Auswirkung, -en",
