@@ -50,7 +50,8 @@
 
     <main id="vue-app">
         <!--                <div id="absolute">Currently <em>{{ wordCount }}</em> possible words!</div>-->
-        <div id="absolute"><em>(Refreshes at midnight local time)</em></div>
+        <!-- <div id="absolute"><em>(Refreshes at midnight local time)</em></div> -->
+        <button id="absolute" v-on:click="updateBtn" class="button is-text">{{ btnText }}</button>
         <div class="flexCont">
             <div class="wordsCont">
                 <h2>{{ wordDE }}</h2>

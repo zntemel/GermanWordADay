@@ -22,16 +22,44 @@ document.addEventListener("DOMContentLoaded", function () {
             type: wordList[day].type,
             sentence: wordList[day].sentence,
             wordCount: wordList.length,
+
+            // Button vars
+            today: true,
+            btnText: "View Yesterday's Word"
         },
         methods: {
             // Code for the secret 'Gib mir noch eines' button! Sshhhh!
-            refresh: function () {
+            // Random word for the site
+            refresh() {
                 randNum = Math.floor(Math.random() * wordList.length);
                 this.wordDE = wordList[randNum].wordDE;
                 this.wordEN = wordList[randNum].wordEN;
                 this.type = wordList[randNum].type;
                 this.sentence = wordList[randNum].sentence;
             },
+            setToday(){
+                this.wordDE = wordList[day].wordDE,
+                this.wordEN = wordList[day].wordEN,
+                this.type = wordList[day].type,
+                this.sentence = wordList[day].sentence
+            },
+            setYesterday(){
+                this.wordDE = wordList[day - 1].wordDE,
+                this.wordEN = wordList[day - 1].wordEN,
+                this.type = wordList[day - 1].type,
+                this.sentence = wordList[day - 1].sentence
+            },
+            updateBtn(){
+                if(this.today == true) {
+                    this.setYesterday();
+                    this.today = false;
+                    this.btnText = "View Today's Word";
+                } else if (this.today == false) {
+                    this.setToday();
+                    this.today = true;
+                    this.btnText = "View Yesterday's Word";
+                }
+            }
         }
     }); // end vue object
     
