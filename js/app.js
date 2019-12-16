@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Sort array by 'sentence' so it appears in a pretty random word order
     const ordered = wordList.sort((a, b) => a.sentence > b.sentence ? 1 : -1);
-        
+    
     // Hey bud message
     console.log(`${wordList.length} words available! This is currently word number ${day}
     Hey there! Whether you're here by accidentally hitting F12 or on purpose, thank you for checking out GermanWordADay.info! I hope you really enjoy this website and that it helps you a bunch! While surely there are some words you already know, I tried to choose a lot of words too where they aren't as common. For example, you won't find 'Das Mädchen' on this list, because that tends to be one of the first words people learn... however 'schön' is also on this list, so maybe in hindsight it's neither here nor there with consistency. Trotzdem vielen Dank für den Besuch!`);

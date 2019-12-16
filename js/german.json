@@ -2037,7 +2037,7 @@ const wordList = [
         wordDE: "Brennen",
         wordEN: "To burn",
         type: "Verb",
-        sentence: "Du kannst das brennende Holz im Ofen sehen"
+        sentence: "Wenn Holz zu heiß wird, beginnt es zu brennen"
     },
     {
         wordDE: "Die Auswirkung, -en",
